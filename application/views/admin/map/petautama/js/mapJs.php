@@ -85,7 +85,7 @@
 					// console.log(feature);
 					var KODE = feature.properties.KODE;
 					return {
-						"color": getColorJalur(KODE),
+						"color": jalur['warna'],
 						"weight": 3,
 						"opacity": 1
 					}
